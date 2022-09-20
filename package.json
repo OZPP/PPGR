@@ -1,0 +1,28 @@
+{
+  "name": "upgradales_contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen0_deploy": "hardhat run --network arbitrumOne scripts/gen0_deploy.js",
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@openzeppelin/hardhat-upgrades": "1.20.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.9.9"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "@openzeppelin/contracts-upgradeable": "^4.4.1",
+    "dotenv": "^16.0.0",
+    "erc721a": "^3.3.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.32",
+    "web3": "^1.8.0"
+  }
+}
