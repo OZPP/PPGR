@@ -13,7 +13,7 @@ npm run deploy_all1155
 ```
 Deploy ERC721 Gen0
 ```shell
-npm run deploy_gen0
+npm run gen0_deploy
 ```
 
 Try running some of the following tasks:
